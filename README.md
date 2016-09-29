@@ -8,4 +8,4 @@ If you'd like to develop this project, follow these steps:
  
  Server will start running at http://localhost:3000
  
- Working Demo at: https://github.com/azeemmohd/eventsUI
+ Working Demo at: https://azeemmohd.github.io/eventsUI/
