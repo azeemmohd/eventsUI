@@ -1,6 +1,6 @@
  A simple events listing page, implemented in ReactJS.
  
-TIf you'd like to develop this project, follow the below mentionded steps:
+If you'd like to develop this project, follow these steps:
  - Clone the Repo.
  - cd /path/to/repo
  - npm start
