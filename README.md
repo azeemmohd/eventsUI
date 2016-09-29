@@ -1,6 +1,6 @@
  An interface to display events, in ReactJS.
  
- # To begin Development
+To begin Development:
  - Clone the Repo.
  - cd /path/to/repo
  - npm start
