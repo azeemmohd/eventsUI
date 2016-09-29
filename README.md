@@ -1,4 +1,10 @@
-Design and build an interface to display events, given information as structured below. Any solution is valid – e.g. a javascript calendar widget, a beautifully formatted web page, a command line tool.
+ An interface to display events, in ReactJS.
+ 
+ #To begin Development#
+ - Clone the Repo.
+ - cd /path/to/repo
+ - npm start
+ Server will start running at http://localhost:3000
 
 {
 "events": [
