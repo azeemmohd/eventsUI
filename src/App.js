@@ -4,7 +4,7 @@ import './App.css';
 import EventCard from './EventCard.js'
 import dateformat from 'dateformat';
 import birthday from './birthday.jpg'
-import discussion from './discussion.svg'
+import discussion from './discussion.png'
 import party from './party.jpg'
 import press from './press.png'
 
