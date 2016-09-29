@@ -4,16 +4,22 @@ import './App.css';
 class EventCard extends Component {
   render() {
     return (
-    <div align="center" className="event-card well clearfix pull-left">
-      <div>
-        <span className="occasion"><b>Occasion: </b> Birthday Party</span>
+    <div className="event-card well clearfix pull-left">
+      <div clasName="eventLabel">
+        <span className={this.props.itemLabel}><b>{this.props.itemLabel}</b></span>
+        <br/>
       </div>
-      <div>
-        <span className="date"><b>When:</b> Wednesday, 20th February, 2016</span>
+      <div className="eventImage" >
+        <img src={this.props.imageTag}/>
       </div>
-      <div>
-        <span className="guests"><b>Guests Invited:</b> 23</span>
-      </div>
+      <p className="infoPara">
+        <span className="occasion"><b>Occasion: </b> {this.props.occasion} </span>
+        <br/>
+        <span className="date"><b>When:</b> {this.props.date} </span>
+        <br/>
+        <span className="guests"><b>Guests Invited:</b> {this.props.invitedCount}</span>
+        <br/>
+      </p>
     </div>);
   }
 }

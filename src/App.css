@@ -25,10 +25,41 @@
 }
 
 .event-card {
-  width: 23%;
-  padding-left: 50px;
+  width: 30%;
+  padding-left: 75px;
   margin: 10px;
-  height: 200px;
+  height: 300px;
+}
+
+.eventImage {
+  height: 170px; 
+  width: 281px; 
+  overflow: hidden;
+  border: hidden;
+  margin-left: 40px;
+}
+
+.UPCOMING {
+  color:green;
+}
+
+.PAST {
+  color:red;
+}
+
+.eventLabel {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+
+.list-group {
+  align-content: center;
+  margin-left: 35px;
+}
+
+.infoPara {
+  margin-top: 20px;
 }
 
 @keyframes App-logo-spin {
